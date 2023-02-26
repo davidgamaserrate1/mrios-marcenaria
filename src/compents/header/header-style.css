@@ -1,0 +1,32 @@
+.header{
+    width: 100%;
+    background: #23232d;
+    height: auto;
+}
+
+.header-list{
+    color: #fcfcfc;
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    display: flex;     
+    position: absolute;
+    right:  25px;   
+    top: calc(60px - 1rem);  
+    flex-wrap: wrap;
+}
+
+.header-item{
+    margin: 0 13px;
+}
+
+.header-item:hover{
+    text-decoration: underline; 
+    cursor: pointer;
+}
+
+.header-logo{
+    height: 100px;
+    display: flex;
+    padding: 5px;     
+}

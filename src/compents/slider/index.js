@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
-import { Slide } from 'react-slideshow-image';
-
-import slide1 from '../../assets/projects/project1.png'
 import SimpleImageSlider from "react-simple-image-slider";
- 
+import './slider-style.css'
 
 const slideImages = [
     {
@@ -22,7 +19,6 @@ const slideImages = [
     },
     {
         url:'https://raw.githubusercontent.com/davidgamaserrate1/assets-my-applications/master/mrios/project5.png'
-        
     }
 ]
 
@@ -31,9 +27,9 @@ const Slider = () =>{
 
     return (
         <div className='slide-container' >
-            <SimpleImageSlider 
-                style={{ margin: '20px auto', marginTop:'20px', backgroundColor:'#23232d' }}
-                width='50vw'
+            <SimpleImageSlider  
+                style={{ margin: '20px auto', marginTop:'20px', borderRadius:'10px' }}
+                width='60vw'
                 height='50vh'
                 images={slideImages}
                 showBullets={true}

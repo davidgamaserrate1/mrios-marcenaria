@@ -1,0 +1,16 @@
+ #aboutUs{
+    background:  #23232d;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+
+.aboutUs-desc{
+    font-size: 20px;    
+    color: #fcfcfc;
+    
+    text-align: center;
+    padding: 50px;
+    
+}

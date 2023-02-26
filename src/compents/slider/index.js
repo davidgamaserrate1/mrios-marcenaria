@@ -29,7 +29,7 @@ const Slider = () =>{
         <div className='slide-container' >
             <SimpleImageSlider  
                 style={{ margin: '20px auto', marginTop:'20px', borderRadius:'10px' }}
-                width='60vw'
+                width='70vw'
                 height='50vh'
                 images={slideImages}
                 showBullets={true}

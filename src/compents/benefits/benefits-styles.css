@@ -1,0 +1,9 @@
+#benefits {
+    margin: 30px 50px;
+    border-bottom: 2px solid #f0f0f0f0;
+    border-top: 2px solid #f0f0f0f0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}

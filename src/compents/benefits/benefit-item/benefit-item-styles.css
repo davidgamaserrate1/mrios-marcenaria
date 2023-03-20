@@ -1,0 +1,27 @@
+.benefit-item {
+    border: 1px solid #f0f0f0f0;
+    border-bottom: 2px solid #f4b412;
+    width: 150px;
+    height: 150px;
+    margin: 15px;
+    text-align: center;
+    justify-content: center;
+}
+
+.benefit-tittle {
+
+    background: #ffffff;
+    justify-content: center;
+    display: flex;
+    padding: 5px;
+    margin: -10px 12px 0 12px;
+    text-transform: uppercase;
+    ;
+
+}
+
+.benefit-description {
+    margin: 15px 5px;
+    text-align: left;
+    flex-wrap: wrap
+}

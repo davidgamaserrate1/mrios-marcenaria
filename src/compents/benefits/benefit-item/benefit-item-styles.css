@@ -4,13 +4,13 @@
     width: 150px;
     height: 150px;
     margin: 15px;
+    padding: 0 5px;
     text-align: center;
-    justify-content: center;
+    
     border-radius: 10px;
 }
 
 .benefit-tittle {
-
     background: #ffffff;
     justify-content: center;
     display: flex;
@@ -21,8 +21,13 @@
 
 }
 
-.benefit-description {
+.benefit-description {    
     margin: 15px 5px;
-    text-align: left;
+    text-align: center;
     flex-wrap: wrap
 }
+
+.benefit-description::first-letter {
+    text-transform: uppercase;
+}    
+

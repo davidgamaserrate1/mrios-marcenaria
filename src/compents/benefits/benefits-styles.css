@@ -16,7 +16,9 @@ h2 {
 
 .benefit-items {
     display: flex;
-    margin-top: -30px;
+ 
     background: #ffffff;
-
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 }
